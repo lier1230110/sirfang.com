@@ -1,0 +1,101 @@
+.sy-header{
+    width: 100%;
+    height: 6.3125rem;
+//  border: 1px solid;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-between;
+    .sy-logo{
+        width:13.4375rem;
+        height: 4.375rem;
+        margin: 1rem 1.125rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .sy-tb{
+        width: 7.8125rem;
+        height: 4.75rem;
+        margin: 0.8125rem 1.125rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        .u{
+            width: 3rem;
+            height:4.8125rem;
+            .use{
+                width:2.5rem ;
+               height: 2.8125rem;
+               color: #999999;
+               margin-bottom:.5rem;
+            }
+            p{
+                font-size: 1.375rem;
+                color: #999;
+            }
+        }
+        .d{
+            width: 3rem;
+            height:4.8125rem;
+            .dh{
+                width: 2.5625rem;
+               height: 2.0625rem;
+               color: #999999;
+               margin-bottom:.6875rem;
+               margin-top: .5rem;
+            }
+            p{
+                font-size: 1.375rem;
+                color: #999;
+            }
+        }
+    }
+}
+.sy-sw1{
+    width: 100%;
+    height:14.9375rem;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.sy-lie{
+    width:100%;
+    height: 30rem;
+    display: flex;
+    align-content:space-between ;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-bottom: 1.125rem solid #f4f4f4;
+    padding-top:2.25rem ;
+    padding-bottom: 2.5rem;
+    border: 0.0625rem solid transparent;
+    border-bottom: 1.125rem solid #f4f4f4;
+    li{
+        width: 25%;
+        height:10.625rem;
+        text-align: center;
+        box-sizing: border-box;
+        border: 0.0625rem solid transparent;
+      a{
+            color: #333;
+        }
+        img{
+            width:7.5rem;
+            height: 7.5rem;
+            
+        }
+        p{
+            width:7.5625rem ;
+            margin-left: 2.1875rem;
+            font-size: 1.75rem;
+            color: #333;
+            margin-top: 1.3125rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+}
